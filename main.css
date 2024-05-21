@@ -1,0 +1,115 @@
+body {
+background-color: #36384D;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+width: 100vw;
+font-family: "Roboto";
+}
+
+.hidden {
+    display: none;
+}
+
+main {
+width: 924px;
+height: 641px;
+border-radius: 40px;
+background-color: white;
+flex-direction: row;
+}
+
+.leftPart {
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 35px;
+}
+
+.leftWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+}
+
+h1 {
+    font-size: xxx-large;
+}
+
+ul {
+list-style-type: none;
+}
+
+li {
+
+}
+
+.imagePart {
+width: 50%;
+}
+
+.grosse-img {
+    margin-right: 25px;
+    width: 400px;
+}
+
+input[type="sumbit"] {
+    background-color: #242742;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 270px;
+
+}
+
+input {
+    margin-bottom: 25px;
+    height: 50px;
+    width: 270px;
+    border-radius: 10px;
+}
+
+#btn:hover {
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+transition: 0.5s;
+}
+
+.error {
+color: tomato;
+}
+
+.inputError {
+    color: tomato;
+    background-color: rgb(255, 201, 192);
+}
+
+.submittedPart {
+    margin: 10%;
+    border-radius: 30px;
+}
+
+.bigCheck {
+height: 100px;
+width: 100px;
+}
+
+.thanks {
+font-size: xxx-large;
+}
+
+.submittedText {
+
+}
+
+.dismissButton {
+width: 80%;
+height: 50px;
+color: white;
+background-color: #242742;
+border-radius: 10px;
+}
